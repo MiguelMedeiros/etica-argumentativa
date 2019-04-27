@@ -1,0 +1,236 @@
+// fonts
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Cabin|Roboto");
+// font-family: 'Bree Serif', serif;
+// font-family: 'Cabin', sans-serif;
+// font-family: 'Roboto', sans-serif
+
+body {
+  min-width: 320px;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+ul {
+  text-align: left;
+  li {
+  }
+}
+
+.app {
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 3vh;
+
+  @media screen and (min-width: 426px) {
+    padding: 0 2rem 2rem;
+    margin-top: 2vh;
+  }
+}
+
+.question {
+  margin: 0rem auto 2rem;
+  max-width: 700px;
+  font-size: 24px;
+  font-family: "Bree Serif", serif;
+  @media screen and (min-width: 426px) {
+    font-size: 28px;
+  }
+}
+
+.button {
+  padding: 1rem 2rem !important;
+  margin: 2rem 1rem !important;
+  font-size: 1.15rem !important;
+}
+
+.navbar {
+  width: 100%;
+  font-family: "Bree Serif", serif;
+}
+
+#menu-appbar {
+  .navlink {
+    width: 100% !important;
+  }
+}
+
+.navbar-bottom {
+  position: fixed !important;
+  bottom: 0;
+  top: "auto";
+  b {
+    margin: auto 1px;
+  }
+  .grow {
+    flex-grow: 1;
+  }
+  .avatar-image {
+    border: 2px solid #fff;
+  }
+}
+
+.social {
+  display: inline-block;
+  margin: auto 10px;
+  vertical-align: top;
+
+  .social-button {
+    outline: none;
+    transition: ease-in 100ms all;
+    &:hover,
+    &:focus {
+      transform: scale(1.1) rotate(5deg);
+    }
+  }
+  .social-count {
+    margin-top: 5px;
+    font-size: 12px !important;
+  }
+}
+
+.image,
+.video {
+  width: 100%;
+  max-width: 550px;
+  margin: 0.5rem auto 0;
+  iframe {
+    border: none;
+  }
+}
+
+.image-small {
+  max-width: 175px !important;
+}
+
+.share-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.image-zoom {
+  transition: ease-in 100ms all;
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+  }
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.navlink {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+.avatars {
+  .avatar-container {
+    text-align: center !important;
+    margin: 2rem auto;
+    .navlink {
+      transition: ease-in 100ms all;
+      color: #fff;
+      &:hover,
+      &:focus {
+        .avatar-image {
+          transform: scale(1.04);
+        }
+      }
+    }
+  }
+  .avatar-image {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 2rem auto 1rem;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+  .description {
+    margin-top: 2px;
+    font-size: 0.7rem;
+  }
+}
+
+.content {
+  max-width: 1200px;
+  padding: 2rem;
+  margin: auto;
+  a {
+    color: yellow;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: darken(yellow, 10%);
+    }
+  }
+}
+.align-center {
+  text-align: center;
+}
+
+.content-small {
+  max-width: 600px;
+}
+
+.fa-icon {
+  width: 30px !important;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.logo {
+  font-family: "Bree Serif", serif;
+  font-size: 16px;
+
+  @media screen and (min-width: 426px) {
+    font-size: 22px;
+  }
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.avatar-image-header {
+  display: inline-block !important;
+  width: 23px !important;
+  height: 23px !important;
+  margin-right: 17px;
+  margin-left: 5px;
+  top: 5px;
+}
+
+.filters {
+  span {
+    color: #fff !important;
+  }
+  .MuiSwitch-bar-176 {
+    background: #898f94;
+  }
+}
+.filter-option {
+  width: 100%;
+  @media screen and (min-width: 426px) {
+    width: auto;
+  }
+}
+
+.ads {
+  img {
+    width: 100%;
+    max-width: 550px;
+    margin-bottom: 1rem;
+  }
+}
