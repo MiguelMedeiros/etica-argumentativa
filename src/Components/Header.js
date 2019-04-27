@@ -103,7 +103,7 @@ class Header extends Component {
               </MenuItem>
               <MenuItem onClick={this.handleClose}>
                 <a
-                  href="https://github.com/MiguelMedeiros/imposto-e-roubo"
+                  href="https://github.com/MiguelMedeiros/etica-argumentativa"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="navlink"

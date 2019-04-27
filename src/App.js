@@ -22,7 +22,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    ReactGA.initialize("UA-138744306-1");
+    ReactGA.initialize("UA-139137643-1");
     ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
