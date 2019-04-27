@@ -97,7 +97,7 @@ class Home extends Component {
         {stage === 2 && (
           <div className="stage">
             <div className="question">
-              Argumentação exige o constrole sobre o próprio corpo?
+              Argumentação exige o controle sobre o próprio corpo?
             </div>
             <img
               src="/img/controlarcorpo.gif"
