@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
-import { NavLink } from "react-router-dom";
+import ReactGA from "react-ga";
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -20,6 +20,11 @@ class Home extends Component {
 
   handleChangeStage = stage => event => {
     this.setState({ stage: stage });
+    ReactGA.event({
+      category: "Stage",
+      action: "Stage: " + stage,
+      label: "Stage: " + stage,
+    });
   };
 
   render() {
@@ -444,7 +449,10 @@ class Home extends Component {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img src="/img/camisetaideiasradicais.png" />
+                <img
+                  src="/img/camisetaideiasradicais.png"
+                  alt="Loja Ideias Radicais"
+                />
               </a>
             </div>
 
